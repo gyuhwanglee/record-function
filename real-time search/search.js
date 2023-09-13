@@ -32,5 +32,4 @@ const RealTimeSearch = ({ data }) => {
     </div>
   );
 };
-
 export default RealTimeSearch;

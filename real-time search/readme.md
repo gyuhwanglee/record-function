@@ -1,0 +1,4 @@
+1. We define a RealTimeSearch component that takes a data prop, which is an array of items you want to search through.
+2. We use the useState hook to manage two pieces of state: searchTerm for storing the current search query and filteredData for storing the filtered results.
+3. The handleInputChange function is called whenever the user types in the input field. It updates the searchTerm state and then filters the data array based on the search term. We use the toLowerCase method to perform a case-insensitive search.
+4. The filtered results are displayed in an unordered list (<ul>) below the input field.
